@@ -1,0 +1,25 @@
+{
+  "name": "ng-form-generator",
+  "version": "1.0.2",
+  "description": "A lightweight and easy to use form builder",
+  "main": "app.full.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayegh7/ng-form-generator.git"
+  },
+  "keywords": [
+    "form",
+    "angular",
+    "sayegh",
+    "builder"
+  ],
+  "author": "Ahmed El Sayegh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sayegh7/ng-form-generator/issues"
+  },
+  "homepage": "https://github.com/Sayegh7/ng-form-generator#readme"
+}

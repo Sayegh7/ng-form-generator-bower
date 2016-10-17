@@ -1,0 +1,25 @@
+{
+  "name": "ng-form-generator",
+  "description": "A lightweight and easy to use form builder",
+  "main": "ng-form-generator.min.js",
+  "authors": [
+    "Ahmed El Sayegh"
+  ],
+  "version": "1.1.2",
+  "license": "ISC",
+  "keywords": [
+    "form",
+    "angular",
+    "sayegh",
+    "generator",
+    "builder"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
