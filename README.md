@@ -1,23 +1,13 @@
 # ng-form-generator
 
+A drag and drop form generator
+
 ng-form-generator is the perfect solution for developers looking to create a form builder for their websites
 
 # Installation
 In order for ng-form-generator to work it requires angular, bootstrap and ui-bootstrap
 
-After you've made sure those 3 exist in your project, install with bower:
-```sh
-$ bower install ng-form-generator
-```
-then include it in your project
-
-```sh
-    <script src="bower_components/ng-form-generator/ng-form-generator.min.js"></script>
-    <link rel="stylesheet" href="bower_components/ng-form-generator/ng-form-generator.min.css">
-
-```
-
-OR install with npm
+After you've made sure those 3 exist in your project, install with npm:
 ```sh
 $ npm install ng-form-generator
 ```
@@ -89,9 +79,11 @@ Example:
   <label>Required Field:</label>
   <input type="checkbox" ng-model="object.required" />
   <input type="text" ng-model="object.description" />
+  <delete />
 </div>
 ```
-
+To add a delete button to your popover template like the one in the demo, just
+add `<delete />` to your popover template
 # Creating an HTML template
 When creating your html template, bind everything to `$scope.object`
 
